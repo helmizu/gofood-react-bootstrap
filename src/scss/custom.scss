@@ -1,0 +1,11 @@
+$primary: #00880d;
+$info: #eaffea;
+$warning: #c85200;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$theme-colors: (
+  "primary": $primary,
+  "info": $info,
+  "warning": $warning
+);

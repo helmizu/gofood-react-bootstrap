@@ -22,7 +22,6 @@ const Restaurant = () => {
               <span className="fs-5 text-muted ms-2 mb-2">Jl. Slamet No.16, Genteng, Surabaya</span>
             </div>
             <div className="container">
-
               <div className="row py-1">
                 <div className="col-6 col-md-3 text-center px-4 py-1 border-start">
                   <div className='d-flex justify-content-center align-items-center' style={{ height: 24 }}>

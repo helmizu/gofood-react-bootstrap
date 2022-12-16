@@ -39,7 +39,7 @@ const Home = () => {
           <div className='container'>
             <div className='row'>
               <div className="col-6 col-md-4 col-xl-3 mb-4">
-                <CardRestaurant name="Special restaurant must go there" />
+                <CardRestaurant name="Aiola Eatery" />
               </div>
               <div className="col-6 col-md-4 col-xl-3 mb-4">
                 <CardRestaurant />
