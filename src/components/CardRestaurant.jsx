@@ -7,7 +7,7 @@ const CardRestaurant = ({ image = '/restaurant.png', name = 'Restaurant', catego
     <Link to={href}>
       <div className="card h-100">
         <div className='card-img-top p-2'>
-          <img className="card-img-top rounded bg-dark" src={image} alt="image restaurants" />
+          <img className="card-img-top rounded bg-dark img-cover" height={240} src={image} alt="image restaurants" />
         </div>
         <div className="card-body">
           <h5 className="card-title">{name}</h5>

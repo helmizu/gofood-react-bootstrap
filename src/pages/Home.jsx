@@ -15,19 +15,19 @@ const Home = () => {
           <div className="d-flex flex-column justify-content-center align-items-center pt-5 text-center">
             <img src='/logo.png' width={100} height={100} />
             <h1 className='my-3 fw-bold'>Good food. Anywhere. Anytime.</h1>
-            <p style={{ width: 540 }} className='mb-3 fs-5'>We've got you covered. Just think about what you want to eat and drink, and we’ll get 'em to you.</p>
+            <p style={{ maxWidth: 540, width: '90%' }} className='mb-3 fs-5'>We've got you covered. Just think about what you want to eat and drink, and we’ll get 'em to you.</p>
           </div>
-          <div className='card border-light shadow-sm rounded-4 px-2' style={{ width: 540 }}>
+          <div className='card border-light shadow-sm rounded-4 px-2' style={{ maxWidth: 540, width: '90%' }}>
             <div className='card-body p-4'>
               <h6 className='fw-bold'>Your Location</h6>
-              <div className='d-flex'>
+              <div className='d-flex flex-column flex-md-row'>
                 <select size="lg" ref={locationRef} defaultValue="" aria-label="Default select example" className='form-select form-select-lg rounded-pill'>
                   <option value="" disabled>Enter Your Location</option>
                   <option value="Surabaya">Surabaya</option>
                   <option value="Jakarta">Jakarta</option>
                   <option value="Malang">Malang</option>
                 </select>
-                <button className='btn btn-primary btn-lg fw-bold rounded-pill ms-3'>Explore</button>
+                <button className='btn btn-primary btn-lg fw-bold rounded-pill mt-3 mt-md-0 ms-md-3'>Explore</button>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Home = () => {
         <section>
           <div className="mx-auto py-4 text-center">
             <h1 className='fw-bold mb-3'>What’s good to eat?</h1>
-            <p style={{ width: 540 }} className='mx-auto fs-5'>Discover our collection of popular dishes, local favorites, and best deals in your neighborhood.</p>
+            <p style={{ maxWidth: 540, width: '90%' }} className='mx-auto fs-5'>Discover our collection of popular dishes, local favorites, and best deals in your neighborhood.</p>
           </div>
           <div className='container'>
             <div className='row'>
