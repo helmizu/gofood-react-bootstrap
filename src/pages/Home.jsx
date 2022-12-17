@@ -1,6 +1,7 @@
 import React from 'react'
 import CardRestaurant from '../components/CardRestaurant'
 import Layout from '../components/Layout'
+import dataRestaurant from '../data/restaurant.json'
 
 const Home = () => {
   const locationRef = React.useRef(null);
@@ -38,30 +39,17 @@ const Home = () => {
           </div>
           <div className='container'>
             <div className='row'>
-              <div className="col-6 col-md-4 col-xl-3 mb-4">
-                <CardRestaurant name="Aiola Eatery" />
-              </div>
-              <div className="col-6 col-md-4 col-xl-3 mb-4">
-                <CardRestaurant />
-              </div>
-              <div className="col-6 col-md-4 col-xl-3 mb-4">
-                <CardRestaurant />
-              </div>
-              <div className="col-6 col-md-4 col-xl-3 mb-4">
-                <CardRestaurant />
-              </div>
-              <div className="col-6 col-md-4 col-xl-3 mb-4">
-                <CardRestaurant />
-              </div>
-              <div className="col-6 col-md-4 col-xl-3 mb-4">
-                <CardRestaurant />
-              </div>
-              <div className="col-6 col-md-4 col-xl-3 mb-4">
-                <CardRestaurant />
-              </div>
-              <div className="col-6 col-md-4 col-xl-3 mb-4">
-                <CardRestaurant />
-              </div>
+              {dataRestaurant.map((restaurant, index) => (
+                <div className="col-6 col-md-4 col-xl-3 mb-4"  key={index}>
+                  <CardRestaurant
+                    name={restaurant.name}
+                    image={restaurant.image}
+                    distance={restaurant.distance}
+                    category={restaurant.category}
+                    href={`/restaurant/${restaurant.name.split(' ').join('-').toLowerCase()}`}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </section>

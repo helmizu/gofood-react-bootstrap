@@ -8,7 +8,7 @@ const formatToIdr = (number) => {
   }).format(number);
 }
 
-const CardFood = ({ image = '/logo.png', name = 'Food', description = 'Food with secret sauce so delicious', price = 22000, href = '#' }) => {
+const CardFood = ({ image = '/logo.png', name = 'Food', description = 'Food with secret sauce so delicious', price = "Rp 0", href = '#' }) => {
   return (
     <Link to={href}>
       <div className="card h-100">
@@ -17,12 +17,12 @@ const CardFood = ({ image = '/logo.png', name = 'Food', description = 'Food with
             <div className="card-body">
               <h6 className="fw-bold">{name}</h6>
               <p className="card-text text-muted">{description}</p>
-              <small className="fw-bold">{formatToIdr(price)}</small>
+              <small className="fw-bold">{price}</small>
             </div>
           </div>
           <div className="col-auto">
             <div className="card-body">
-              <img src={image} width={120} height={120} className="rounded bg-dark p-4" alt="food image" />
+              <img src={image} width={120} height={120} className="rounded bg-dark" alt="food image" />
             </div>
           </div>
         </div>

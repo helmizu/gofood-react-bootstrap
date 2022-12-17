@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Reddog",
+    "image": "https://i.pinimg.com/originals/3d/43/b5/3d43b5816213b46616e178174f2c2dbb.jpg",
+    "distance": "2 km",
+    "category": "Snacks, Beverages",
+    "time": "09:00-22:00",
+    "address": "Jl. Slamet No.16, Genteng, Surabaya"
+  },
+  {
+    "name": "Q-Fried Chicken",
+    "image": "https://i.pinimg.com/564x/93/a5/84/93a5847697464568e7df091dfed1222a.jpg",
+    "distance": "1.3 km",
+    "category": "Chicken, Rice, Snacks, Beverages",
+    "time": "09:00-23:00",
+    "address": "Jl. Agung No.18, Genteng, Surabaya"
+  },
+  {
+    "name": "Slamet Healty Resto",
+    "image": "https://i.pinimg.com/564x/c1/9a/45/c19a45565eaa67acd53a1d0b5c43b343.jpg",
+    "distance": "1.2 km",
+    "category": "Healty Food, Snacks, Beverages",
+    "time": "10:00-22:00",
+    "address": "Jl. Pisang No.11, Genteng, Surabaya"
+  },
+  {
+    "name": "Jaco Caffe",
+    "image": "https://i.pinimg.com/564x/c3/8a/da/c38ada8d41c0fabcfc4165a0e28133f3.jpg",
+    "distance": "1.7 km",
+    "category": "Chicken, Rice, Snacks, Beverages",
+    "time": "11:00-23:00",
+    "address": "Jl. Mangga No.10, Genteng, Surabaya"
+  },
+  {
+    "name": "Bea Caffe",
+    "image": "https://i.pinimg.com/564x/22/ac/57/22ac579c4f88feb7681d7d607bf2d348.jpg",
+    "distance": "1.9 km",
+    "category": "Snacks, Beverages",
+    "time": "09:00-22:00",
+    "address": "Jl. Slamet No.20, Genteng, Surabaya"
+  },
+  {
+    "name": "JKS Chicken",
+    "image": "https://i.pinimg.com/564x/b5/81/bd/b581bd528ebd3b0cdbe8ffaa2a22bbbe.jpg",
+    "distance": "2.1 km",
+    "category": "Checken, Snacks, Beverages",
+    "time": "09:00-22:00",
+    "address": "Jl. Slamet No.27, Genteng, Surabaya"
+  },
+  {
+    "name": "Sushi Yes",
+    "image": "https://i.pinimg.com/564x/07/64/c6/0764c6b5cc5501a353d1c62831e16e1e.jpg",
+    "distance": "1.3 km",
+    "category": "Sushi, Snacks, Beverages",
+    "time": "10:00-22:00",
+    "address": "Jl. Pisang No.26, Genteng, Surabaya"
+  },
+  {
+    "name": "Ramen Master",
+    "image": "https://i.pinimg.com/564x/75/3f/7e/753f7ecbb00e56cc339d7d1e8857ca1b.jpg",
+    "distance": "2.1 km",
+    "category": "Sushi, Snacks, Beverages",
+    "time": "09:00-22:00",
+    "address": "Jl. Kacang No.16, Genteng, Surabaya"
+  }
+]

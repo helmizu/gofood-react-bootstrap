@@ -1,0 +1,1 @@
+export const convertNameToPath = (name = '') => name.split(' ').join('-').toLowerCase()

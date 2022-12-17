@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Chicken Karage",
+    "image": "https://i.pinimg.com/564x/79/34/f5/7934f52c2810bdc87407df5e07684784.jpg",
+    "desc": "Chicken Fry that you will never be bored",
+    "price": "Rp 27.000,00"
+  },
+  {
+    "name": "Chicken Honey",
+    "image": "https://i.pinimg.com/564x/00/b1/2c/00b12cfccdc4e624a86485d3c0402a3a.jpg",
+    "desc": "Chicken yummy",
+    "price": "Rp 25.000,00"
+  },
+  {
+    "name": "Chicken Wings",
+    "image": "https://i.pinimg.com/564x/09/90/02/099002ef92fe66fd44549e7ab643d8ab.jpg",
+    "desc": "Chicken Wings with a sticky and spicy glaze seasoned with garlic, paprika, and parsley with plenty of crunch from crushed cornflakes and sweetness from honey",
+    "price": "Rp 37.000,00"
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "image": "https://i.pinimg.com/564x/f6/8f/36/f68f36d74796ae95326296076bf694b9.jpg",
+    "desc": "Traditional Spaghetti Bolognese, ground beef slowly braised in aromatic tomato sauce with onions, garlic, carrots and celery",
+    "price": "Rp 27.000,00"
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "image": "https://i.pinimg.com/564x/63/2e/97/632e9702b9318b42e0a8a37840aaf7d9.jpg",
+    "desc": "Velvety smooth and so flavorful, this Spaghetti Carbonara is always a favorite. You'll love the creamy textures & savory flavors of this dish",
+    "price": "Rp 45.000,00"
+  },
+  {
+    "name": "Boba Matcha Tea",
+    "image": "https://i.pinimg.com/564x/0e/86/86/0e8686ab820369e1d507117560e745e3.jpg",
+    "desc": "This simple but delicious Matcha Bubble Tea with Brown Sugar is the perfect afternoon treat. Refreshing and flavourful, you'll want two cups to yourself!",
+    "price": "Rp 17.000,00"
+  }
+]
